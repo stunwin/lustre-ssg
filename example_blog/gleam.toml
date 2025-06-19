@@ -1,0 +1,10 @@
+name = "example_blog"
+version = "0.1.0"
+description = "Example blog built with lustre_ssg"
+gleam = ">= 1.6.0"
+
+[dependencies]
+lustre = ">= 5.0.0 and < 6.0.0"
+lustre_ssg = { path = ".." }
+
+[dev-dependencies]
